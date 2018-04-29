@@ -1,0 +1,36 @@
+.list{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top:0.5rem;
+}
+
+
+.list-left{
+    width: 0.8rem;
+    height: 3rem;
+    position: fixed;
+    left: 0;
+    li{
+        height:0.4rem;
+        line-height: 0.4rem;
+        text-align: center;
+    }
+}
+.list-right{
+   margin-left: 0.8rem;
+   li{
+       width:2rem;
+       height: 1.5rem;
+       img{
+           width: 100%;
+           height: 1.3rem;
+       }
+   }
+   margin-bottom: 0.5rem;
+}
+p{height:60px}
+
+.activecolor{
+    color: red;
+}

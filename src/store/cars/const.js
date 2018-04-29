@@ -1,0 +1,6 @@
+const ADD_CAR="ADD_CAR";
+const ADD_CAR_SOME="ADD_CAR_SOME";
+const REDUCE="REDUCE";
+export{
+    ADD_CAR,ADD_CAR_SOME,REDUCE
+}
